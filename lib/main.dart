@@ -39,5 +39,5 @@ void main() => runApp(MaterialApp(
 ));
 
 final ThemeData mDafaultTheme = ThemeData(
-  primaryColor: Colors.redAccent,
+  primaryColor: Color(0xFF0b97ff),
 );
