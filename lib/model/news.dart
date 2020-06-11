@@ -10,7 +10,6 @@ class NewsItemModal {
   });
 
   factory NewsItemModal.fromJosn(dynamic json){
-
     return NewsItemModal(
       title: json['title'],
       author: json['author'],

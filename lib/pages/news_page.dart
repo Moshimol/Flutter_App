@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../model/news.dart';
 import '../services/news.dart';
+import 'news_detail_page.dart';
 
 class NewsPage extends StatefulWidget {
   @override
@@ -12,11 +13,11 @@ class NewsPageState extends State<NewsPage> {
 
   void getNewsList() async {
     var data = await getNewsResult();
-    if(data != null) {
+    if (data != null) {
       NewsListModel list = NewsListModel.fromJosn(data);
 
       setState(() {
-        if(list.data.length > 0) {
+        if (list.data.length > 0) {
           listData.data.addAll(list.data);
         }
       });
@@ -44,6 +45,18 @@ class NewsPageState extends State<NewsPage> {
             return ListTile(
               title: Text(item.title),
               subtitle: Text(item.content),
+              leading: Icon(Icons.fiber_new),
+              trailing: Icon(Icons.arrow_forward_ios),
+              contentPadding: EdgeInsets.all(10.0),
+              enabled: true,
+              // 跳转到新闻详情页面
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => NewsDetail(item: item)),
+                );
+              },
             );
           },
           itemCount: listData.data.length),
