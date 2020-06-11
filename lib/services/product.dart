@@ -10,7 +10,5 @@ getProdutResult([int page = 0]) async{
   var res = await http.get(url);
   String body = res.body;
   var json = jsonDecode(body);
-  print(body);
-
   return json['items'] as List;
 }
