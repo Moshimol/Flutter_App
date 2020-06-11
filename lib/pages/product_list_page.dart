@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../model/product.dart';
-import '../services/product.dart';
 import '../pages/product_detail_page.dart';
+import '../style/index.dart';
 
 class ProductResultListWidget extends StatelessWidget {
   //列表数据
@@ -49,7 +49,7 @@ class ProductResultListWidget extends StatelessWidget {
                         height: 100,
                       ),
                       SizedBox(
-                        width: 10,
+                        width: 20.0,
                       ),
                       Expanded(
                         child: Container(
