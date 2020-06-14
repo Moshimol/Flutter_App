@@ -2,27 +2,16 @@
 
 Flutter 学习小Demo
 
+分为 主页  产品  新闻 关于我们
 
 
-主要分为以下几个模块
 
-首页
-
-<img src="./image/IMG_0019.PNG" alt="avatar" style="zoom:50%;" />
-
-产品
-
-<img src="./image/IMG_0020.PNG" alt="avatar" style="zoom:50%;"  />![avatar](./image/IMG_0022.PNG)
-
-新闻
-
-<img src="./image/IMG_0021.PNG" alt="avatar" style="zoom:50%;" />'
-
-关于我们
-
-<img src="./image/IMG_0022.PNG" alt="avatar" style="zoom:50%;"  />
-
-
+[![NSvaZt.md.png](https://s1.ax1x.com/2020/06/15/NSvaZt.md.png)](https://imgchr.com/i/NSvaZt)
+[![NSvNqI.md.png](https://s1.ax1x.com/2020/06/15/NSvNqI.md.png)](https://imgchr.com/i/NSvNqI)
+[![NSvddP.md.png](https://s1.ax1x.com/2020/06/15/NSvddP.md.png)](https://imgchr.com/i/NSvddP)
+[![NSvtsA.md.png](https://s1.ax1x.com/2020/06/15/NSvtsA.md.png)](https://imgchr.com/i/NSvtsA)
+[![NSvBi8.md.png](https://s1.ax1x.com/2020/06/15/NSvBi8.md.png)](https://imgchr.com/i/NSvBi8)
+[![NSvwIf.md.png](https://s1.ax1x.com/2020/06/15/NSvwIf.md.png)](https://imgchr.com/i/NSvwIf)
 
 #### 其余还要两个单独的页面
 
