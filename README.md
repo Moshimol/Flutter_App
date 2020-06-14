@@ -1,16 +1,33 @@
 # websiteflutter
 
-企业级的Flutter
+Flutter 学习小Demo
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+主要分为以下几个模块
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+首页
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="./image/IMG_0019.PNG" alt="avatar" style="zoom:50%;" />
+
+产品
+
+<img src="./image/IMG_0020.PNG" alt="avatar" style="zoom:50%;"  />![avatar](./image/IMG_0022.PNG)
+
+新闻
+
+<img src="./image/IMG_0021.PNG" alt="avatar" style="zoom:50%;" />'
+
+关于我们
+
+<img src="./image/IMG_0022.PNG" alt="avatar" style="zoom:50%;"  />
+
+
+
+#### 其余还要两个单独的页面
+
+联系我们的页面
+
+
+
+本项目的API采用Dart语言书写，在另外一个项目中
