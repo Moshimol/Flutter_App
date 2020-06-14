@@ -8,8 +8,10 @@ class AboutContactPage extends StatefulWidget {
 }
 
 class AboutContactPageState extends State<AboutContactPage> {
+  // 文本的编辑控制器
   TextEditingController controller = TextEditingController();
 
+  // 提交数据
   void commit() {
     if (controller.text.length == 0) {
       showDialog(
@@ -64,7 +66,7 @@ class AboutContactPageState extends State<AboutContactPage> {
                   "给我们留言",
                   style: TextStyle(fontSize: 16.0),
                 ),
-                color: Colors.redAccent,
+                color: Theme.of(context).primaryColor,
                 colorBrightness: Brightness.dark,
                 textColor: Colors.white,
                 padding: EdgeInsets.only(

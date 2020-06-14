@@ -4,7 +4,7 @@ import 'package:websiteflutter/model/news.dart';
 class NewsDetail extends StatelessWidget {
   final NewsItemModal item;
 
-  NewsDetail({Key key,@required this.item}) : super(key:key);
+  NewsDetail({Key key, @required this.item}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

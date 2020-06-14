@@ -30,15 +30,7 @@ class AboutPageState extends State<AboutPage> {
               color: Colors.grey,
             ),
             ListTile(
-              leading: Icon(Icons.info),
-              title: Text("公司优势"),
-            ),
-            Divider(
-              height: 0.0,
-              color: Colors.grey,
-            ),
-            ListTile(
-              leading: Icon(Icons.not_interested),
+              leading: Icon(Icons.headset),
               title: Text("公司介绍"),
               onTap: () {
                 Navigator.of(context).pushReplacementNamed("complay_info");
@@ -52,7 +44,8 @@ class AboutPageState extends State<AboutPage> {
               leading: Icon(Icons.phone),
               title: Text("联系我们"),
               onTap: () {
-                Navigator.push(context,
+                Navigator.push(
+                    context,
                     MaterialPageRoute(
                         builder: (context) => AboutContactPage()));
               },

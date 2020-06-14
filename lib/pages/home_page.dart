@@ -11,25 +11,22 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-
   ProductListModel listData = ProductListModel([]);
 
   void getProductList() async {
     var data = await getProdutResult();
-    if(data != null) {
+    if (data != null) {
       ProductListModel list = ProductListModel.fromJosn(data);
       setState(() {
-        if(list.data.length > 0) {
+        if (list.data.length > 0) {
           listData.data.addAll(list.data);
-
         }
       });
     }
   }
 
-
   @override
-  void initState(){
+  void initState() {
     getProductList();
     super.initState();
   }
@@ -41,10 +38,8 @@ class HomePageState extends State<HomePage> {
         children: <Widget>[
           BannerWidget(),
           HomePageProductPage(listData),
-
         ],
       ),
     );
-
   }
 }

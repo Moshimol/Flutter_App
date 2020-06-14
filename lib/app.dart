@@ -20,31 +20,30 @@ class AppState extends State<App> {
   NewsPage newsPage;
   AboutPage aboutPage;
 
-  currentPage(){
-    switch (_current_index){
+  currentPage() {
+    switch (_current_index) {
       case 0:
-        if(homepage == null) {
+        if (homepage == null) {
           homepage = HomePage();
         }
         return homepage;
       case 1:
-        if(productPage == null) {
+        if (productPage == null) {
           productPage = ProductPage();
         }
         return productPage;
       case 2:
-        if(newsPage == null) {
+        if (newsPage == null) {
           newsPage = NewsPage();
         }
         return newsPage;
       case 3:
-        if(aboutPage == null) {
+        if (aboutPage == null) {
           aboutPage = AboutPage();
         }
         return aboutPage;
     }
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -89,21 +88,15 @@ class AppState extends State<App> {
             icon: Icon(Icons.home),
           ),
           BottomNavigationBarItem(
-            title: Text(
-                "产品"
-            ),
+            title: Text("产品"),
             icon: Icon(Icons.apps),
           ),
           BottomNavigationBarItem(
-            title: Text(
-                "新闻"
-            ),
+            title: Text("新闻"),
             icon: Icon(Icons.filter_6),
           ),
           BottomNavigationBarItem(
-            title: Text(
-                "关于我们"
-            ),
+            title: Text("关于我们"),
             icon: Icon(Icons.insert_comment),
           ),
         ],

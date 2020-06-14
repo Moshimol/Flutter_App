@@ -3,8 +3,9 @@ import 'dart:convert';
 import '../conf/configure.dart';
 
 //获取产品数据
-postContactUs(String msg) async{
-  String url = 'http://' + Config.IP + ':' + Config.PORT + '/?action=company&msg=$msg';
+postContactUs(String msg) async {
+  String url =
+      'http://' + Config.IP + ':' + Config.PORT + '/?action=company&msg=$msg';
   print(url);
 
   var res = await http.get(url);

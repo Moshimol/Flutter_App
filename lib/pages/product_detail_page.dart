@@ -5,7 +5,7 @@ import '../utils/utils.dart';
 class ProductDetail extends StatelessWidget {
   final ProductItemModal item;
 
-  ProductDetail({Key key,@required this.item}) : super(key:key);
+  ProductDetail({Key key, @required this.item}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
